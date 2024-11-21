@@ -1,0 +1,13 @@
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 100%; /* Stacks cards vertically */
+  }
+}
